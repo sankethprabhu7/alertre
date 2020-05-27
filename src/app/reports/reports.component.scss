@@ -1,0 +1,83 @@
+.searchlayout{
+  background-color: #fafafa;
+}
+
+.search{
+  padding: 13px;
+  .inputIcon {
+		background: #fafafa;
+		color: #0a6ed1;
+		cursor: pointer;
+	}
+	.inputIcon:hover{
+		background: rgba(224,224,224,0.5)
+  }
+
+}
+  #table{
+    width: 100%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border: 0.5px solid rgb(170, 166, 166);
+    height: 80%;
+    
+    .column {
+      text-align:center;
+      span {
+        font-weight: bolder;
+        font-size: 15px;
+        text-align:center;
+      }
+    }
+ 
+  .alertTableRow{
+    line-height: 2rem;
+    font-size: 10 px;
+    .cell{
+          cursor:pointer;
+          font-size: 10px;
+     }
+    }
+  }
+
+  
+  .alertTableCell , p{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+  }
+
+
+  .alert-table{
+    overflow-y:auto;
+  }
+
+  .alertButton{
+     height: 5rem;
+     width: 6rem;
+  }
+
+  .status,.Scenario,.select-Date{
+    display:inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin-left: 30px;
+    .select-status,.select-Scenario{
+      width: 350px;
+    }
+    .select-Date1{
+      width: 350px;
+    }
+  }
+
+  .statuslabel,.status{
+    display:inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin-left: 10px;
+  }
+  .Scenariolabel,.Scenario{
+    display:inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin-left: 10px;
+  }
+  .statuslabel{
+    font-weight: bold;
+    font-size: 10px;
+  }
